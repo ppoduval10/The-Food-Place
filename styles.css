@@ -1,0 +1,465 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Header */
+header{
+    width: 100%;
+    height: 10%;
+    top: 0px;
+    position: fixed;
+    align-items: center;
+    background-color: white;
+    z-index: 2;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    width: 200px;
+    align-content: flex-start;
+}
+
+#list {
+    margin-left: 450px ;
+    margin-right: 20px;
+
+    display:flex;
+    justify-content: space-around;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    list-style: none;
+    width: 1200px;
+}
+
+header nav ul li {
+    align-content: center;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10%;
+}
+
+li:hover,a:hover {
+    background-color: burlywood;
+    border: 5px burlywood;
+    border-radius: 10%;
+    color: white;
+}
+
+
+/* Main */
+main {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Welcome */
+#bg2 {
+    background-image: url(Bg_2.jpg);
+    z-index: 1;
+    height: 500px;
+    align-content: center;
+    text-align: center;
+}
+
+.bg2-h {
+    color: white;
+    font-size: 50px;
+}
+
+.bg2-para {
+    color: white;
+    font-size: 20px;
+}
+
+#reservation1 {
+    font-size: 18px;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border: 3px solid burlywood;
+    background: transparent;
+}
+
+#reservation1:hover {
+    background-color: burlywood;
+}
+
+#reservation {
+    font-size: 18px;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border: 3px solid burlywood;
+    color: white;
+    background: transparent;
+}
+
+#reservation:hover {
+    background-color: burlywood;
+}
+
+
+/* Little Story  */
+#cheff {
+    text-align: center;
+}
+
+#chef {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: white;
+    z-index: 1;
+}
+
+#chef-img {
+    margin: 40px;
+    width: 500px;
+    height: 350px;
+    box-shadow: -8px -8px  burlywood;
+    
+}
+
+.chef-welcome {
+    margin: 40px;
+    font-size:35px;
+}
+
+.chef-color {
+    color: burlywood;
+}
+
+.chef-para {
+    font-size: 20px;
+    text-wrap: wrap;
+}
+
+
+/* Quote */
+#bg-img {
+    background-image: url(Bg_5.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    top: 0px;
+    z-index: -1;
+}
+
+#quote {
+    margin: 40px 40px 0px 40px;
+    padding: 60px 80px 0px 80px; 
+    text-align: center;
+    height: auto;
+    font-size: 22px;
+    background: transparent;
+    color: white;
+}
+
+#author {
+    padding-right: 430px;
+    padding-bottom: 60px;
+    text-align: right;
+    font-size: 22px;
+    background: transparent;
+    color: white;
+
+}
+
+
+/* Menu Headings */
+#special {
+    align-content: center;
+    margin: 50px 200px 0px 200px;
+    justify-content: center;
+}
+
+.divisional {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 35px;
+}
+
+.paragraph {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 20px 200px 0px 200px;
+}
+
+main div ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+main div ul li {
+    text-align: center;
+    align-content: center;
+    list-style: none;
+    width: 80px;
+    height: 30px;
+}
+
+main div ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.menu-content {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid gray;
+}
+
+
+/* Menu Items */
+#menu-items {
+    width: 100%;
+}
+
+.menu-padding {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 200px 0px 200px;
+    justify-content: center;
+}
+
+.drinks {
+    width: 350px;
+    height: 250px;
+}
+
+.drink-h {
+    padding: 20px 50px 0px 50px;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.drink-p {
+    padding: 0px 50px 0px 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.drink-p1 {
+    padding: 0px 40px 0px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.drink-p2 {
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+
+}
+
+#drink1 {
+    background-image:linear-gradient(rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Drinks_1.jpg);
+    margin: 20px;
+    background-size: cover;
+}
+
+#drink2 {
+    background-image:linear-gradient(rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Drinks_2.jpg);
+    margin: 20px;
+    background-size: cover;
+}
+
+#drink3 {
+    background-image:linear-gradient(rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Drinks_3.jpg);
+    margin: 20px;
+    background-size: cover;
+}
+
+#lunch1 {
+    background-image:linear-gradient(rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_1.jpg);
+    margin: 20px;
+    background-size: cover;
+}
+
+#lunch2 {
+    background-image:linear-gradient(rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_2.jpg);
+    margin: 20px;
+    background-size: cover;
+}
+
+#lunch3 {
+    background-image:linear-gradient(rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_3.jpg);
+    margin: 20px;
+    background-size: cover;
+}
+
+#dinner1 {
+    background-image:linear-gradient(rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_1.jpg);
+    margin: 20px;
+    background-size: cover;
+}
+
+#dinner2 {
+    background-image:linear-gradient(rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_2.jpg);
+    margin: 20px;
+    background-size: cover;
+}
+
+#dinner3 {
+    background-image:linear-gradient(rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_3.jpg);
+    margin: 20px;
+    background-size: cover;
+}
+
+
+/* Gallery */
+#Gallery {
+    width: 100%;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.GalleryImg {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galimg {
+    margin: 24px 16px;
+   width: 350px;
+   height: 250px;
+   transition: 0.5s;
+   top: 0px;
+   
+}
+
+.galimg:hover {
+    transform: scale(1.1);
+}
+
+
+/* CEO Intro */
+#ceo {
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid gray;
+}
+
+.paragraph1 {
+    font-weight: bold;
+    color: burlywood;
+    font-size: 30px;
+}
+
+
+/* Personal Info */
+#last {
+    display: flex;
+    flex-direction: column(3);
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 100%;
+    height: 30%;
+    background-color: burlywood;
+    color: white;
+}
+
+.last-h {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.last-p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+/* Footer Content */
+#footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-content {
+    width: 25%;
+    padding: 50px 75px 0px 75px;
+}
+
+.footer-h {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-p {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+}
+
+.line {
+    color: burlywood;
+}
+
+.email {
+    width: 100%;
+    height: 35px;
+    background-color: black;
+}
+
+.subscribe {
+    padding-left: 2px;
+    width: 105%;
+    height: 40px;
+    background-color: burlywood;
+    color: white;
+}
+
+
+/* All rights */
+#ending {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
